@@ -1,0 +1,114 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "curdmysql",
+    "collectionId": "416574c8-9ec2-49bd-bbd4-6f95fcdd9b4f",
+    "dateExported": "2024-07-22T14:59:37.435Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f7d6eafd-77d9-42a8-bd35-03920d12c471",
+            "colId": "416574c8-9ec2-49bd-bbd4-6f95fcdd9b4f",
+            "containerId": "",
+            "name": "localhost:8000/user/delete/6",
+            "url": "localhost:8000/user/delete/4",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-22T14:58:57.076Z",
+            "modified": "2024-07-22T14:58:57.077Z",
+            "headers": []
+        },
+        {
+            "_id": "b6db41c0-5927-4264-af5e-35b889e5875f",
+            "colId": "416574c8-9ec2-49bd-bbd4-6f95fcdd9b4f",
+            "containerId": "",
+            "name": "localhost:8000/user/update/1",
+            "url": "localhost:8000/user/update/1",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-07-22T14:59:11.007Z",
+            "modified": "2024-07-22T14:59:11.007Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"jblbhd\",\n  \"location\":\"KabsTM\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fd51f187-c13b-4a77-83ff-723c43bc45cb",
+            "colId": "416574c8-9ec2-49bd-bbd4-6f95fcdd9b4f",
+            "containerId": "",
+            "name": "localhost:8000/user/1",
+            "url": "localhost:8000/user/16",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-22T14:59:17.224Z",
+            "modified": "2024-07-22T14:59:17.224Z",
+            "headers": []
+        },
+        {
+            "_id": "dff2209f-26db-48c7-9517-a58117f9dae4",
+            "colId": "416574c8-9ec2-49bd-bbd4-6f95fcdd9b4f",
+            "containerId": "",
+            "name": "localhost:8000/user/add?username=Nimesh&location=Jhapa",
+            "url": "localhost:8000/user/add",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-22T14:59:23.709Z",
+            "modified": "2024-07-22T14:59:23.709Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "username",
+                    "value": "Satym",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "location",
+                    "value": "Jhapa",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Username\" :\"krh\",\n  \"location\" :\"brdaban\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1128a7e4-88c1-4e10-87bc-34582c8fd74d",
+            "colId": "416574c8-9ec2-49bd-bbd4-6f95fcdd9b4f",
+            "containerId": "",
+            "name": "localhost:8000/user/add",
+            "url": "localhost:8000/user/add",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-22T14:59:29.645Z",
+            "modified": "2024-07-22T14:59:29.645Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "username",
+                    "value": "don",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "location",
+                    "value": "america",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\" :\"krishna\",\n  \"location\" :\"dwarika\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "fVutFq0trnZD89lDUNM7D95EfV1Ce_Qxz5RBrkL5Qz6OZTJCWZkyeVMD8JejvLBvkXDOjpzQ9gr92THPKRJkrA"
+}
