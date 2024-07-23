@@ -1,8 +1,8 @@
 import express from "express";
-import connection from "../config/connection.js";
+import connection from "../config/connection.js"
 const router = express.Router();
 //insert data in database
-router.post("/user/add",(req,res)=>{
+router.post("/add",(req,res)=>{
 
 console.log(req.query);
 const username = req.body.username;
@@ -25,7 +25,7 @@ connection.query(`INSERT INTO users(username,location) VALUES(?,?)`,
 
 //get data from database along with id
 
-router.get("/user/:id",(req,res)=>{
+router.get("/:id",(req,res)=>{
 const {id} = req.params;
 console.log(id)
 if(id){
@@ -41,7 +41,7 @@ else{
 
 //update user
 
-router.put("/user/update/:id",(req,res)=>{
+router.put("/update/:id",(req,res)=>{
 const {id} = req.params;
 const {username,location} = req.body;
 
@@ -62,7 +62,7 @@ else{
 });
 
 //delete user
-router.get("/user/delete/:id",(req,res)=>{
+router.get("/delete/:id",(req,res)=>{
     const {id} =req.params;
     const {username,location} =req.body;
     if(id){
@@ -80,4 +80,8 @@ router.get("/user/delete/:id",(req,res)=>{
         res.status(202).json({sucess:false,message:"user id not provided"});
     }
 });
-export default router
+export default router;
+
+
+
+
