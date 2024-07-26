@@ -17,9 +17,9 @@ const userModel=connection.define("User",{
     type: DataTypes.STRING,
     allowNull:false,
    },
-    //   set(value){
-    //     this.setDataValue("username",value+ "Mr.");
-    //   },
+                            //   set(value){
+                            //     this.setDataValue("username",value+ "Mr.");
+                            //   },
 
 })
 export default userModel;
